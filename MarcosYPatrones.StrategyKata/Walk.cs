@@ -6,9 +6,9 @@ namespace MarcosYPatrones.StrategyKata
 {
     public class Walk : IMoveBehavior
     {
-        public void Move(Viking unit)
+        public void Move(IUnit unit)
         {
-            unit.Position += 1;
+            unit.Position++;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MarcosYPatrones.StrategyKata
 {
-    public class Viking
+    public class Viking : IUnit
     {
         private IMoveBehavior _moveStrategy;
 

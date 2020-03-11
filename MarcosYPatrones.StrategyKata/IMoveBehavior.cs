@@ -6,6 +6,6 @@ namespace MarcosYPatrones.StrategyKata
 {
     public interface IMoveBehavior
     {
-        void Move(Viking unit);
+        void Move(IUnit unit);
     }
 }

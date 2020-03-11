@@ -6,7 +6,7 @@ namespace MarcosYPatrones.StrategyKata
     {
         static void Main(string[] args)
         {
-            var context = new Viking();
+            IUnit context = new Viking();
             bool continueExecution = true;
 
             do
@@ -30,7 +30,6 @@ namespace MarcosYPatrones.StrategyKata
                         continueExecution = false;
                         break;
                 }
-
             }
             while (continueExecution);
         }
