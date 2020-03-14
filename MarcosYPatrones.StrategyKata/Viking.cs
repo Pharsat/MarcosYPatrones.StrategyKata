@@ -6,6 +6,11 @@ namespace MarcosYPatrones.StrategyKata
 {
     public class Viking : IUnit
     {
+        public Viking()
+        {
+            _moveStrategy = new Walk();
+        }
+
         private IMoveBehavior _moveStrategy;
 
         public int Position { get; set; }
