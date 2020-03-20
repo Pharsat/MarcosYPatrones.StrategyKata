@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MarcosYPatrones.StrategyKata\MarcosYPatrones.StrategyKata.csproj" />
+    <ProjectReference Include="..\MarcosYPatrones.StrategyKata.Classes\MarcosYPatrones.StrategyKata.Classes.csproj" />
   </ItemGroup>
 
 </Project>
